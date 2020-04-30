@@ -1,0 +1,371 @@
+﻿<!DOCTYPE html>
+<html>
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+</head>
+<style>
+
+.header {
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family:arial;
+}
+
+.nav ul {
+	list-style-type: none;
+	background-color: rgb(0,0,102);
+	text-align:center;
+	margin: 0;
+	padding: 0;  
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  width: 150px;
+  display: block;
+  margin: 5px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: Helvetica;
+  color: white;
+}
+
+.nav a:hover {
+  background-color: rgb(0,0,153);
+  transition: 0.4s;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #cccccc;
+	margin: -10px;
+}
+
+.flex-container > div {
+	background-color: #800000;
+	width: 350px;
+	margin: 25px;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	font-family: 'Alegreya Sans SC';
+	font-size: 24px;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+h1.impact {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.button {
+	background-color:#b30000;
+	font-size: 24px;
+	font-family: candara;
+	border: solid white 3px;
+	padding: 10px 18px;
+	color: white;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 100px;
+}
+
+.button:hover {
+  background-color: #e60000;
+  transition: 0.4s;
+}
+
+#myHeader {
+  background-color:#cc0000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border: solid rgb(0,0,102) 5px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#cccccc;
+   color:#00004d ;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+</style>
+<body>
+
+<div class ="header">
+	<img src="f45.png" style="width:330px;height:200px;">
+	<h1 style = "font-family: candara;
+	color: rgb(128,0,0);"> 
+		@ TAMPINES WEST 
+	</h1>
+</div>
+
+<div class = "nav">
+	<ul style = "text-align: center;">
+		<li><a href="index.html">HOME</a></li> 
+		<li><a href="page2.html">ABOUT US</a></li> 
+		<li><a href="page3.html">PROGRAMMES</a></li> 
+		<li><a href="page4.html">LOCATION</a></li>  
+	</ul>
+</div>
+
+<br>
+
+<div class="flex-container">
+	<div style = "flex-basis: 400px;">
+		<h3> ABOUT US </h3>
+		<p>Born in Australia, F45 Training combines elements of high- intensity interval training (HIIT), circuit training, and functional training. The variation of our workout programming keeps our members challenged, eager to grow and ready to have fun! 
+		</p>
+	</div>
+	<div <div style = "flex-basis: 250px;
+					background-color:#000066;">
+		<h3> MEMBERSHIP </h3>
+		<p><i><ins> F45LIVE Weekly </ins></i></p>
+		<p> $35 per week</p>
+	</div>
+	<div style = "flex-basis: 400px;">
+		<h3> DETAILS:</h3>
+		<p> The F45LIVE membership gives you access to daily live online streaming classes and private facebook group with the Trainers here at F45TW. There will also be workout videos available for you to watch at any time if you cant make our live sessions.
+		</p>
+		<p style = "font-size: 17px"> *Due to unforseen circumstances caused by COVID-19, our other membership rates are currently suspended. We sincerely apologise for any inconvenience caused.
+		</p>
+	</div>
+</div>
+
+<center>
+<form action="https://f45training.sg/tampineswest/home">
+	<button class="button"> CLICK HERE TO START SEVEN DAYS FREE TRIAL </button>
+</form>
+</center>
+
+<br><br>
+<h1 id="myHeader" style="font-family: candara;"> 
+	PHOTO GALLERY
+</h1>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="entrance.jpeg" style="width:100%">
+  <div class="text">Entrance</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="tsw1.jpg" style="width:100%">
+  <div class="text">Inside View</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="tsw4.jpg" style="width:100%">
+  <div class="text">Inside View</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="footer">
+	<h1 class ="impact;" 
+		style = "text-decoration: underline;
+		text-align: center;
+		font-family: 'Alegreya Sans SC';" > 
+		TEAM TRAINING. LIFE CHANGING.
+	</h1>
+	<p class = "alignleft" 
+		style= "margin-left:52px;
+		font-family: helvetica;
+		line-height: 15px;
+		text-decoration: underline;">
+		SOCIALS
+	</p>
+	<p class = "alignright" 
+	style= "margin-right: 10px;
+			font-size: 18px;
+			font-family: helvetica;
+			line-height: 15px;">
+		|<a href="https://f45training.com/careers/"> CAREERS </a>
+		|<a href="https://f45training.com/faqs/"> FAQ </a> 
+		|<a href="https://f45challenge.com/"> F45 CHALLENGE </a>
+		|<a href="https://f45challenge.com/privacy/"> PRIVACY </a>
+		|<a href="https://f45challenge.com/terms/"> TERMS |</a>
+	</p>
+<br><br><br>
+	<p class = "alignleft"
+		style = "margin: 10px;"> 
+		<a href="https://www.facebook.com/f45tampineswest/"><img src="fb.png" style="width:50px;height:50px;"></a>
+		<a href="https://www.instagram.com/f45_training_tampineswest/?hl=en"><img src="insta.png" style="width:50px;height:50px;"></a>
+		<a href="https://twitter.com/f45training?lang=en"><img src="twitter.png" style="width:50px;height:50px;"></a>
+	</p>
+	<p class = "alignright" 
+	style= "margin-right: 10px;
+			font-size: 18px;
+			font-family: helvetica;
+			line-height: 10px;">
+		<img src="f45logo.png" style="width:60px;height:40px;"> 
+		© 2020 F45 Training 
+	</p>
+</div>
+
+</body>
+</html>
+
+
